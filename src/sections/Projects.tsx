@@ -13,6 +13,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Minervate",
+    description:
+      "A premium consultancy platform built for leadership development. Leveraged Webflow's CMS to ensure the client has full autonomy over their business growth content.",
+    image: "/projects/minervate.png",
+    tags: ["Webflow", "CMS", "Responsive Design"],
+    link: "https://www.minervate.co.uk",
+    github: "", // Keep empty for Webflow projects
+  },
+  {
     title: "Fintech Dashboard",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",

@@ -49,7 +49,7 @@ export const Navbar: React.FC = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary transition-colors"
         >
-          PM<span className="text-primary">.</span>
+          KleanCode<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Navigation Links */}

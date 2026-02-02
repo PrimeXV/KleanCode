@@ -11,7 +11,7 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    period: "2022 — Present",
+    period: "2026 — Present",
     role: "Senior Frontend Engineer",
     company: "Tech Innovators Inc.",
     description:
@@ -20,7 +20,7 @@ const experiences: ExperienceItem[] = [
     current: true,
   },
   {
-    period: "2020 — 2022",
+    period: "2025(may) — 2025(dec)",
     role: "Frontend Engineer",
     company: "Digital Solutions Co.",
     description:
@@ -29,7 +29,7 @@ const experiences: ExperienceItem[] = [
     current: false,
   },
   {
-    period: "2019 — 2020",
+    period: "2024 — 2025",
     role: "Junior Developer",
     company: "StartUp Labs",
     description:
@@ -38,12 +38,12 @@ const experiences: ExperienceItem[] = [
     current: false,
   },
   {
-    period: "2018 — 2019",
+    period: "2023 — 2024",
     role: "Freelance Developer",
     company: "Self-Employed",
     description:
       "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+    technologies: ["JavaScript", "WordPress", "MySQL"],
     current: false,
   },
 ];

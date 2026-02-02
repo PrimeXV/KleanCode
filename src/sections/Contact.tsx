@@ -27,19 +27,19 @@ const contactInfo: ContactInfo[] = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "Hassan@kleanCode.tech",
+    href: "mailto:Hassan@kleanCode.tech",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+234 (814) 329-9726",
+    href: "tel:+2348143299726",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Lagos, Nigeria",
     href: "#",
   },
 ];
@@ -283,8 +283,8 @@ export const Contact: React.FC = () => {
                 </span>
               </div>
               <p className="text-muted-foreground text-sm relative z-10 leading-relaxed">
-                I'm currently open to new opportunities in Agricultural
-                Engineering and Soil Science. Let's discuss your next project.
+                I'm currently open to new opportunities in software development
+                and engineering. Let's discuss your next project.
               </p>
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16 group-hover:bg-primary/10 transition-colors duration-500" />
             </div>
