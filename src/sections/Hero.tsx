@@ -35,6 +35,7 @@ const skills: string[] = [
   "Figma",
   "Git",
   "GitHub Actions",
+  "Webflow",
 ];
 
 const socialLinks: SocialLink[] = [
@@ -77,7 +78,7 @@ export const Hero: React.FC = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Software Engineer • React & Webflow Specialist
               </span>
             </div>
 
@@ -92,9 +93,11 @@ export const Hero: React.FC = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Hassan Ganiyu — a developer and engineer specializing in 
+                <span className="text-white"> React, Next.js, and Flutter</span>. 
+                I build high-performance web and mobile apps, and I also use 
+                <span className="text-white"> Webflow</span> to give clients full 
+                creative control over their platforms.
               </p>
             </div>
 
@@ -127,7 +130,7 @@ export const Hero: React.FC = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/profile-photo.png"
                   alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
@@ -142,7 +145,7 @@ export const Hero: React.FC = () => {
                 </div>
 
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">3+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
