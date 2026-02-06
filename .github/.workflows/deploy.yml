@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Trigger the workflow on push to the 'main' branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Run the job on the latest Ubuntu VM
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action to check out your repository code
+
+      - name: Setup Node.js (if needed for build)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22" # Specify your project's Node.js version
+
+      - name: Install dependencies and build (if needed)
+        run: |
+          npm install
+          npm run build # Replace 'npm run build' with your specific build command
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to
+          folder: dist # The folder your build command creates (e.g., 'dist', 'public', etc.)
