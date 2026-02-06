@@ -3,7 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Trigger the workflow on push to the 'main' branch
+      - main
+
+permissions: 
+  contents: write
+
 
 jobs:
   build-and-deploy:
