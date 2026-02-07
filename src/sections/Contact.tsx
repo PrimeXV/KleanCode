@@ -171,7 +171,7 @@ export const Contact: React.FC = () => {
                       type="text"
                       required
                       placeholder="Your name..."
-                       autocomplete="name"
+                       autoComplete="name"
                       value={formData.name}
                       onChange={(e) =>
                         setFormData({ ...formData, name: e.target.value })
@@ -192,7 +192,7 @@ export const Contact: React.FC = () => {
                       type="email"
                       required
                       placeholder="your@email.com"
-                       autocomplete="email"
+                       autoComplete="email"
                       value={formData.email}
                       onChange={(e) =>
                         setFormData({ ...formData, email: e.target.value })

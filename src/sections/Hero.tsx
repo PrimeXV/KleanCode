@@ -93,17 +93,26 @@ export const Hero: React.FC = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Hassan Ganiyu — a developer and engineer specializing in 
-                <span className="text-white"> React, Next.js, and Flutter</span>. 
-                I build high-performance web and mobile apps, and I also use 
-                <span className="text-white"> Webflow</span> to give clients full 
-                creative control over their platforms.
+                Hi, I'm Hassan Ganiyu — a developer and engineer specializing in
+                <span className="text-white"> React, Next.js, and Flutter</span>
+                . I build high-performance web and mobile apps, and I also use
+                <span className="text-white"> Webflow</span> to give clients
+                full creative control over their platforms.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
+              <Button
+                size="lg"
+                onClick={() =>
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
+                style={{ cursor: "pointer" }}
+              >
+                Contact Me{" "}
+                <ArrowRight className="w-5 h-5" style={{ marginLeft: "8px" }} />
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
